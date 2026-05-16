@@ -5,9 +5,9 @@ import { useParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { ShoppingBag, ChevronRight, Minus, Plus, Heart, Share2, ShieldCheck, Zap, RotateCcw } from 'lucide-react';
-import { PRODUCTS } from '../../../src/data/products';
-import { ProductCard } from '../../../src/components/ProductCard';
-import { useCart } from '../../../src/context/CartContext';
+import { PRODUCTS } from '@/src/data/products';
+import { ProductCard } from '@/src/components/ProductCard';
+import { useCart } from '@/src/context/CartContext';
 
 export default function ProductDetails() {
   const params = useParams();

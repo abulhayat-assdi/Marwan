@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { ChevronLeft, ShieldCheck, Lock, CreditCard, Wallet, Truck } from 'lucide-react';
-import { useCart } from '../../src/context/CartContext';
+import { useCart } from '@/src/context/CartContext';
 
 export default function CheckoutPage() {
   const { cart, cartTotal, clearCart } = useCart();

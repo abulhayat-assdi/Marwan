@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ShoppingBag, Search, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '@/src/context/CartContext';
 import { CartDrawer } from './CartDrawer';
 
 export const Header: React.FC = () => {

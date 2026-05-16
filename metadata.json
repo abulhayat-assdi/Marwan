@@ -2,5 +2,7 @@
   "name": "Marwan - Premium Clothing",
   "description": "Luxurious clothing brand e-commerce experience.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

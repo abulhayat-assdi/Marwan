@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Trash2, ArrowRight, ShoppingBag } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '@/src/context/CartContext';
 
 interface CartDrawerProps {
   isOpen: boolean;

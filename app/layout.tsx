@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Outfit, Playfair_Display } from 'next/font/google';
 import "./globals.css";
-import { CartProvider } from "../src/context/CartContext";
+import { CartProvider } from "@/src/context/CartContext";
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-display' });

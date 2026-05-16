@@ -4,11 +4,11 @@ import React from 'react';
 import Link from 'next/link';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ArrowRight, ChevronDown, Play, Sparkles, Shield, Compass } from 'lucide-react';
-import { Header } from '../src/components/Header';
-import { Footer } from '../src/components/Footer';
-import { ProductCard } from '../src/components/ProductCard';
-import { ReviewCarousel } from '../src/components/ReviewCarousel';
-import { PRODUCTS } from '../src/data/products';
+import { Header } from '@/src/components/Header';
+import { Footer } from '@/src/components/Footer';
+import { ProductCard } from '@/src/components/ProductCard';
+import { ReviewCarousel } from '@/src/components/ReviewCarousel';
+import { PRODUCTS } from '@/src/data/products';
 
 export default function Home() {
   const { scrollY } = useScroll();

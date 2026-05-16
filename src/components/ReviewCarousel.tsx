@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
-import { REVIEWS } from '../data/products';
+import { REVIEWS } from '@/src/data/products';
 
 export const ReviewCarousel = () => {
   const [index, setIndex] = useState(0);

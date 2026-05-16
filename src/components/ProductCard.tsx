@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
-import { Product } from '../types';
+import { Product } from '@/src/types';
 
 interface ProductCardProps {
   product: Product;

@@ -4,8 +4,8 @@ import React, { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'motion/react';
 import { Search, X, SlidersHorizontal } from 'lucide-react';
-import { PRODUCTS } from '../../src/data/products';
-import { ProductCard } from '../../src/components/ProductCard';
+import { PRODUCTS } from '@/src/data/products';
+import { ProductCard } from '@/src/components/ProductCard';
 
 const ShopContent = () => {
   const searchParams = useSearchParams();
